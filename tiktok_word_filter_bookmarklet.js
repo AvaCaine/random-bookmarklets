@@ -1,5 +1,5 @@
 javascript:(function(){
-    const blacklist = ["roblox", "vrc"];
+    const blacklist = ["blacklist1", "blacklist2"]; //replace blacklists with keyword/s you want to blacklist.
     function getCurrentVideoContainer() {
         const containers = [...document.querySelectorAll('[id^="one-column-item-"]')];
         if (!containers.length) return null;
